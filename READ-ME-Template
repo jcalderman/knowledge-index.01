@@ -1,0 +1,30 @@
+# 🧠 Knowledge Index Template
+
+This repository acts as a **dynamic context hub** for AI-assisted workflows.
+Each `.md` file contains verified references, trusted sources, and key notes on a specific topic.
+
+---
+
+## ⚙️ How to Use
+- At the start of any ChatGPT or AI session, include:
+  > "Use the context from my knowledge index at https://github.com/jcalderman/knowledge-index.01"
+
+- To reference a specific file:
+  > "Use the context from my Blender index at https://github.com/jcalderman/knowledge-index.01/blob/main/Blender-4.5-index.md"
+
+---
+
+## 🧩 Structure Rules
+| Section | Purpose |
+|----------|----------|
+| **Primary Reference** | The most official or canonical resource |
+| **Verified Sources** | Reputable tutorials, docs, or data links |
+| **Notes** | Bullet-pointed summaries or unique insights |
+| **Usage** | How to load this file into AI context |
+
+---
+
+✅ Keep links short, verified, and descriptive.  
+✅ Avoid duplicate topics — instead, link between indexes.
+✅ Include version numbers (e.g. Blender 4.5, Revit 2024).  
+✅ Markdown only (no code dependencies).
